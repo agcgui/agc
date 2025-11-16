@@ -1,0 +1,5 @@
+{
+  "name": "AGC Calculadora de Juros Compostos",
+  "description": "A modern and intuitive compound interest calculator. It allows users to simulate investments by providing an initial amount, monthly contributions, interest rate, and investment period to visualize financial growth over time.",
+  "requestFramePermissions": []
+}
