@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface ResultCardProps {
@@ -9,7 +8,7 @@ interface ResultCardProps {
 
 const ResultCard: React.FC<ResultCardProps> = ({ label, value, isHighlighted = false }) => {
   const baseClasses = "p-6 rounded-md text-center flex flex-col justify-center items-center h-full";
-  const highlightedClasses = "bg-[#8c1515] text-white";
+  const highlightedClasses = "bg-[#166534] text-white";
   const defaultClasses = "bg-white border border-gray-200";
 
   return (

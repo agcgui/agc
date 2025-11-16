@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface InputGroupProps {
@@ -27,7 +26,7 @@ const InputGroup: React.FC<InputGroupProps> = ({ label, name, value, onChange, p
             id={name}
             value={value}
             onChange={onChange}
-            className={`flex-1 block w-full px-3 py-2 border border-gray-300 focus:ring-[#8c1515] focus:border-[#8c1515] sm:text-sm ${prefix ? 'rounded-none' : 'rounded-l-md'} ${suffix ? 'rounded-r-none' : 'rounded-r-md'}`}
+            className={`flex-1 block w-full px-3 py-2 border border-gray-300 focus:ring-[#166534] focus:border-[#166534] sm:text-sm ${prefix ? 'rounded-none' : 'rounded-l-md'} ${suffix ? 'rounded-r-none' : 'rounded-r-md'}`}
           />
           {suffix && (
              <div className="flex items-center">

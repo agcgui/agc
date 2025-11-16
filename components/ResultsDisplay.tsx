@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { CalculationResults } from '../types';
 import ResultCard from './ResultCard';
@@ -14,7 +13,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results }) => {
 
   return (
     <div className="mt-10 bg-white p-6 md:p-8 rounded-lg shadow-md border border-gray-200">
-      <h2 className="text-2xl font-bold text-[#8c1515] mb-6">Resultado</h2>
+      <h2 className="text-2xl font-bold text-[#166534] mb-6">Resultado</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <ResultCard
           label="Valor total final"

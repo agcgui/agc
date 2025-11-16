@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoIcon: React.FC = () => (
     <svg width="40" height="40" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-        <path d="M0 0H132V132H0V0Z" fill="#A71E22"/>
+        <path d="M0 0H132V132H0V0Z" fill="#166534"/>
         <path d="M85.7594 28.3379L28.3379 66L85.7594 103.662L85.7594 28.3379Z" stroke="white" strokeWidth="8" strokeLinejoin="round"/>
         <path d="M103.662 28.3379V103.662" stroke="white" strokeWidth="8" strokeLinejoin="round"/>
     </svg>
@@ -11,7 +11,7 @@ const LogoIcon: React.FC = () => (
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-[#8c1515] shadow-md">
+    <header className="bg-[#166534] shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20 text-white">
           <div className="flex items-center">
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             </nav>
           </div>
           <div className="flex items-center space-x-4">
-             <button className="hidden sm:block border border-white rounded-md px-4 py-2 text-sm font-semibold hover:bg-white hover:text-[#8c1515] transition-all">
+             <button className="hidden sm:block border border-white rounded-md px-4 py-2 text-sm font-semibold hover:bg-white hover:text-[#166534] transition-all">
                 Agende uma consulta
             </button>
             <a href="#" className="font-semibold hover:text-gray-200 transition-colors">Entrar</a>

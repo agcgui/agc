@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { CalculationInputs } from '../types';
 import InputGroup from './InputGroup';
@@ -18,7 +17,7 @@ const CalculatorForm: React.FC<CalculatorFormProps> = ({ inputs, setInputs, onCa
 
   return (
     <div className="bg-white p-6 md:p-8 rounded-lg shadow-md border border-gray-200">
-      <h2 className="text-2xl font-bold text-[#8c1515] mb-6">Simulador de Juros Compostos</h2>
+      <h2 className="text-2xl font-bold text-[#166534] mb-6">Simulador de Juros Compostos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <InputGroup
           label="Valor inicial"
@@ -63,11 +62,11 @@ const CalculatorForm: React.FC<CalculatorFormProps> = ({ inputs, setInputs, onCa
       <div className="mt-8 flex items-center justify-start gap-6">
         <button
           onClick={onCalculate}
-          className="bg-[#8c1515] text-white font-bold py-3 px-10 rounded-md hover:bg-[#a71e22] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8c1515]"
+          className="bg-[#166534] text-white font-bold py-3 px-10 rounded-md hover:bg-[#14532d] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#166534]"
         >
           Calcular
         </button>
-        <button onClick={onClear} className="text-gray-500 hover:text-[#8c1515] font-medium transition-colors">
+        <button onClick={onClear} className="text-gray-500 hover:text-[#166534] font-medium transition-colors">
           Limpar
         </button>
       </div>
